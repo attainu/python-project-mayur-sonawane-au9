@@ -447,9 +447,14 @@ def search_Menu():
                     break
                 except ValueError:
                     print("NO VALID INPUT!! PLEASE TRY AGAIN ...")
-            if l != []:                                  
-                restaurent_Menu(l[search_menu_input-1])     # if list of the search result is not empty, this will call restaurent_Menu function with reference to user defined choice
-                break
+            if l != []:
+                try:                                  
+                    restaurent_Menu(l[search_menu_input-1])     # if list of the search result is not empty, this will call restaurent_Menu function with reference to user defined choice
+                    break
+                except IndexError:
+                    print("NO VALID INPUT!! PLEASE TRY AGAIN ...")
+                    search_Menu() 
+                    break
             else:
                 print("\n" + "ENTERED DISH (",dish,") NOT FOUND. TRY AGAIN!",sep='')
         
