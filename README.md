@@ -8,6 +8,12 @@ Download VS code or Pycharm or any IDE supporting Python 3.4
 
 Python version 3.4 and greater
 
+## Modules
+
+Order Food
+Join Services
+Exit
+
 
 ## Usage
 
