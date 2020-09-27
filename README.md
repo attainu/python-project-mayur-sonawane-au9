@@ -10,8 +10,8 @@ Python version 3.4 and greater
 
 ## Modules
 
-Order Food
-Join Services
+Order Food,
+Join Services,
 Exit
 
 
